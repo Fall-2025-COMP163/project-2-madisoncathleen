@@ -195,7 +195,7 @@ class Mage(Player):
         """
         Special mage ability - a powerful magical attack.
         """
-        damage = random.randint(10, round((self.magic * 2.5) * 2))
+        damage = random.randint(round(self.magic), round((self.magic * 2.5) * 2))
         if self.weapon:
             damage += self.weapon.damage_bonus
         target.take_damage(damage)
