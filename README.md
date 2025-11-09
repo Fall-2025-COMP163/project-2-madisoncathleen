@@ -145,3 +145,18 @@ Feel free to add your own creative touches for bonus points:
 - Additional character classes beyond the three required
 - More weapon types with different properties
 - Enhanced special abilities with unique effects
+
+•	Bonus Creative Features: Did you add anything unique?
+
+I didn't really add anything too unique besides incorporating some of the elements that I threw into the first project. 
+Theres a small system for criticals beyond the required one for rogue though.
+
+•	AI Usage: What AI assistance did you use and where?
+
+AI was generally used for debugging and making sure everything was correct, and I have the co-pilot extension toggled on.
+I think this was a pretty easy project though, so I didn't really need much more than that.
+Oh, yeah. It also changed the testing code so it would run automatically for me.
+
+•	How to Run: Clear instructions for testing your code
+
+Everything should run on start up on its own. 
