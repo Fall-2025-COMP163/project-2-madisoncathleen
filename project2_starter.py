@@ -123,14 +123,14 @@ class Warrior(Player):
         Warriors should have: high health, high strength, low magic
         """
         self.level = 1
-        super().__init__(name, character_class="Warrior", health = (100 + (self.level - 1) * 5), strength = (10 + (self.level - 1) * 5), magic = (2 + (self.level - 1) * 1))
+        super().__init__(name, character_class="Warrior", health = (100 + (self.level - 1) * 5), strength = (12 + (self.level - 1) * 5), magic = (2 + (self.level - 1) * 1))
       
     def attack(self, target):
         """
         Override the basic attack to make it warrior-specific.
         Warriors should do extra physical damage.
         """
-        damage = random.randint(1, round((self.strength * 1.5) * 1.5))
+        damage = random.randint(round(self.strength * 0.5), round((self.strength * 1.5) * 1.5))
         if self.weapon:
             damage += self.weapon.damage_bonus
         target.take_damage(damage)
